@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-@FeignClient (name= "userService", url = "http://customer-service.eastus.azurecontainer.io:8092", qualifier ="userClient" ) // TODO
+@FeignClient (name= "userService", url = "http://localhost:8085", qualifier ="userClient" )
 public interface UserClient {
 
     @PostMapping(value = "/user")

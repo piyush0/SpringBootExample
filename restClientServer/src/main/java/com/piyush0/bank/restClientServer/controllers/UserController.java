@@ -84,7 +84,7 @@ public class UserController {
                                                @ApiParam(value = "User ID", required = true) @Valid @RequestBody UserRequest userRequest)
     {
         userService.updateUsersById(userId, userRequest);
-        return new ResponseEntity(HttpStatus.NO_CONTENT);
+        return new ResponseEntity(HttpStatus.OK);
     }
 
     @DeleteMapping (value = "/user/{userId}")
@@ -100,6 +100,6 @@ public class UserController {
     public ResponseEntity deleteUsersById (@ApiParam(value = "User ID", required = true) @PathVariable("userId") String userId)
     {
         userService.deleteUsersById(userId);
-        return new ResponseEntity(HttpStatus.NO_CONTENT);
+        return new ResponseEntity(HttpStatus.OK);
     }
 }

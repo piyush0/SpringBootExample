@@ -4,4 +4,4 @@ spring:
 
   cloud:
     config:
-      uri: http://config-service.eastus.azurecontainer.io:8888 # TODO
+      uri: http://localhost:8081

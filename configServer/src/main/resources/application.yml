@@ -3,10 +3,10 @@ server:
 
 spring:
   application:
-    name: config-server
+    name: configServer
 
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/alfonsoim/config # TODO
+          uri: https://github.com/piyush0/SpringBootExampleConfig

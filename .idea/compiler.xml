@@ -19,7 +19,7 @@
       <module name="gatewayServer" target="1.8" />
       <module name="restClientServer" target="1.8" />
       <module name="restClientService" target="1.5" />
-      <module name="userServer" target="1.5" />
+      <module name="userServer" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +28,7 @@
       <module name="discoveryServer" options="-parameters" />
       <module name="gatewayServer" options="-parameters" />
       <module name="restClientServer" options="-parameters" />
+      <module name="userServer" options="-parameters" />
     </option>
   </component>
 </project>

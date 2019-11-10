@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  config_server:
+    build: './configServer'
+  discovery_server:
+    build: './discoveryServer'
+  gateway_server:
+    build: './gatewayServer'
+  rest_client_server:
+    build: './restClientServer'
+  user_server:
+    build: './userServer'
