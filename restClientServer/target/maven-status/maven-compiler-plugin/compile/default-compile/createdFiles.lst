@@ -1,0 +1,8 @@
+com/piyush0/bank/restClientServer/services/UserService.class
+com/piyush0/bank/restClientServer/models/User.class
+com/piyush0/bank/restClientServer/clients/UserClient.class
+com/piyush0/bank/restClientServer/controllers/UserController.class
+com/piyush0/bank/restClientServer/services/IUserService.class
+com/piyush0/bank/restClientServer/swagger/SwaggerSettings.class
+com/piyush0/bank/restClientServer/requests/UserRequest.class
+com/piyush0/bank/restClientServer/RestClientServerApplication.class

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: userServer
+
+  cloud:
+    config:
+      uri: http://config-service.eastus.azurecontainer.io:8888 # TODO
