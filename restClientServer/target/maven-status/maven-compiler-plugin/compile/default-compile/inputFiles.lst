@@ -1,8 +1,0 @@
-/home/piyush0/Desktop/Personal/SpringBootExample/restClientServer/src/main/java/com/piyush0/bank/restClientServer/clients/UserClient.java
-/home/piyush0/Desktop/Personal/SpringBootExample/restClientServer/src/main/java/com/piyush0/bank/restClientServer/controllers/UserController.java
-/home/piyush0/Desktop/Personal/SpringBootExample/restClientServer/src/main/java/com/piyush0/bank/restClientServer/requests/UserRequest.java
-/home/piyush0/Desktop/Personal/SpringBootExample/restClientServer/src/main/java/com/piyush0/bank/restClientServer/services/IUserService.java
-/home/piyush0/Desktop/Personal/SpringBootExample/restClientServer/src/main/java/com/piyush0/bank/restClientServer/swagger/SwaggerSettings.java
-/home/piyush0/Desktop/Personal/SpringBootExample/restClientServer/src/main/java/com/piyush0/bank/restClientServer/RestClientServerApplication.java
-/home/piyush0/Desktop/Personal/SpringBootExample/restClientServer/src/main/java/com/piyush0/bank/restClientServer/services/UserService.java
-/home/piyush0/Desktop/Personal/SpringBootExample/restClientServer/src/main/java/com/piyush0/bank/restClientServer/models/User.java

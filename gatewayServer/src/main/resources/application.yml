@@ -1,10 +1,23 @@
+server:
+  port: 8084
+
 spring:
   application:
     name: gatewayServer
 
 eureka:
   client:
-    registerWithEureka: true
-    fetchRegistry: true
+    register-with-eureka: true
+    fetch-registry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
+
+zuul:
+  routes:
+    customer:
+      path: /api/v1/repository/**
+      url: http://localhost:8085/user
+    customer-feign:
+      path: /api/v1/feign/**
+      url: http://localhost:8083/user
+
